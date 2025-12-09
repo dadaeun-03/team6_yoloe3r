@@ -19,7 +19,7 @@ API_KEY = "APIKEY"
 
 # API 키가 제대로 로드되었는지 확인 (선택 사항)
 if not API_KEY:
-    print("🚨 경고: .env 파일에서 API_KEY를 로드하지 못했습니다. 키 값을 확인하세요.")
+    print("경고: .env 파일에서 API_KEY를 로드하지 못했습니다. 키 값을 확인하세요.")
 
 # 3장의 최초 입력 이미지 경로
 # 이때 이미지는 각각 왼쪽 30도(-30), 정면, 오른쪽 30도(30)
@@ -38,6 +38,7 @@ SELECTED_IMAGE_PATH = "selected_input_image.jpg"
 
 REPORT_MODEL = "gemini-2.5-flash" # 리포트 생성 모델
 STYLE_MODEL = "gemini-2.5-flash-image"  # 이미지 출력 모델
+
 
 
 
